@@ -1,0 +1,124 @@
+
+body {
+	background: url(../img/bg.jpg);
+	background-size: 100%;
+	font-family: Goudy Old Style, Garamond, Times New Roman, serif;
+}
+
+.container	{
+	margin: 25px auto;
+	height: 640px;
+	width: 90%;
+	background: rgba(0,0,0,255);
+	box-shadow: 10px 10px 45px #000;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+} 
+.c__front {     
+	background-image: url(../img/border.png);     
+	background-position: right bottom; } 
+
+.c__front .logo {      
+	padding: 35px 0 0 45px; }
+
+.c__back--left .logo {
+	padding: 0 0 0 45px;
+}
+
+.logo__sign {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 46px;
+	line-height: 54px;
+}
+li {
+	list-style: none;
+}
+span {
+	color: #25aae1;
+}
+.logo_descr {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	color: #25aae1;
+	font-size: 22.5px;
+	text-transform: uppercase;
+}
+.double_container	{
+	margin: 25px auto;;
+	height: 640px;
+	width: 90%;
+	box-shadow: 10px 10px 45px #000;
+	display: flex;
+	justify-content: center;
+	align-content: center; 
+} 
+.c__back--left {
+	width: 50%;
+	background: #fff;
+	background-position: 0% 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.c__back--left li {
+	color: #000;
+}
+.c__back--right {
+	width: 50%;
+	background: #000;
+	background-position: left top;
+	color: #fff;
+	display: block;
+}
+
+h2 {
+	margin: 25% 0 0 0;
+	font-size: 60px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+h3 {
+	margin: -2% 0 0 0;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.t_white {
+	color: #fff;
+}
+.c__text {
+	margin: 30% 0 0 0;
+	font-size: 30px;
+	text-align: left;
+	line-height: 50px;
+}
+.c__text li {
+	padding: 0 0 0 45px;
+}
+
+.phone {
+	width: 8%; 	
+	margin: 0 15px 0 0;
+	vertical-align: middle;
+}
+.email {
+	width: 8%;
+	margin: 0 15px 0 0;
+	vertical-align: middle;
+}
+.address {
+	width: 8%;
+	margin: 0 15px 0 0;
+	vertical-align: middle;
+	}
+.web {
+	width: 8%;
+	margin: 0 15px 0 0;
+	vertical-align: middle;
+	}
